@@ -45,8 +45,6 @@ git clone https://github.com/SANDEEPSAJEEV/GenAI-Assessment-Sandeep.git
 cd GenAI-Assessment-Sandeep
 
 
-### 1️⃣ Create a virtual environment
-```bash
 # On Mac/Linux
 python -m venv venv
 source venv/bin/activate
@@ -57,3 +55,28 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
+
+4️⃣ Configure environment variables
+Create a .env file:
+
+GROQ_API_KEY=your_groq_api_key
+OPENWEATHERMAP_API_KEY=your_weather_api_key    # Optional (Weather feature)
+QDRANT_URL=http://localhost:6333
+QDRANT_API_KEY=your_qdrant_api_key
+LANGSMITH_API_KEY=your_langsmith_api_key
+
+▶️ Running the Application
+Run Streamlit UI
+streamlit run ui.py
+
+🧪 Testing
+Run unit tests:
+pytest test_app.py
+
+
+
+
+📊 LangSmith Evaluation
+Logged LLM responses with LangSmith.
+Evaluated decision-making correctness within LangGraph.
+Screenshots of LangSmith results are included in the report.
