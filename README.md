@@ -45,7 +45,8 @@ git clone https://github.com/SANDEEPSAJEEV/GenAI-Assessment-Sandeep.git
 cd GenAI-Assessment-Sandeep
 
 
-
+### 1️⃣ Create a virtual environment
+```bash
 # On Mac/Linux
 python -m venv venv
 source venv/bin/activate
